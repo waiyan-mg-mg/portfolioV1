@@ -1,0 +1,33 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.hover-on-ligh-up {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.hover-on-ligh-up:hover {
+  /* background-color: #ffc107; */
+  background-color: #dc3545;
+  color: white;
+}
+
+.hover-on-ligh-up:hover i {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+}
+
+.personalInfo div i {
+  font-size: 2.8rem;
+  cursor: pointer;
+  filter: grayscale(1);
+  transition: all 0.5s;
+}
+.personalInfo div i:hover {
+  transform: translateY(-6px);
+  filter: grayscale(0);
+
+}
+
+section{
+  overflow-x: hidden;
+}
